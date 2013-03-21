@@ -77,4 +77,14 @@ describe "Edumacator" do
     end
   end
   
+  context 'ellipsis...' do
+    it 'handles an ellipsis' do
+      expect(Edumacator::educate(%q{trailing off...})).to eq(%q{trailing off…})
+    end
+    
+    it 'handles an ellipsis with spaces between dots' do
+      expect(Edumacator::educate(%q{trailing off. . .})).to eq(%q{trailing off…})
+    end
+  end
+  
 end
