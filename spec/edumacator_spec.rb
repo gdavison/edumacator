@@ -87,4 +87,10 @@ describe "Edumacator" do
     end
   end
   
+  context 'dashes' do
+    it 'handles --' do
+      expect(Edumacator::educate(%q{the reason -- in their minds})).to eq(%q{the reason — in their minds})
+    end
+  end
+  
 end

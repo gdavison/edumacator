@@ -11,5 +11,7 @@ class Edumacator
       
     result = result.gsub %r{\.\.\.},   %q{…}   # ellipsis
     result = result.gsub %r{\. \. \.}, %q{…}   # ellipsis with spaces
+    
+    result = result.gsub %r{--},       %q{—}   # em dash
   end
 end
