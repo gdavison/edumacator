@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "edumacator"
   gem.homepage = "http://github.com/gdavison/edumacator"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Educates quotes and other typographical elements}
+  gem.description = %Q{“Educates” quotes and replaces some other typographic characters like em-dashes (—) and ellipses (…).}
   gem.email = "g.m.davison@computer.org"
   gem.authors = ["Graham Davison"]
   # dependencies defined in Gemfile
