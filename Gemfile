@@ -12,3 +12,7 @@ group :development do
   gem "jeweler", "~> 1.8.4"
   gem 'simplecov', '~> 0.7.1'
 end
+
+group :test do
+  gem "rake", "~> 10.0.0"
+end
