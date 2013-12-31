@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.authors = ["Graham Davison"]
   s.date = "2013-03-22"
   s.description = "\u{201c}Educates\u{201d} quotes and replaces some other typographic characters like em-dashes (\u{2014}) and ellipses (\u{2026})."
-  s.email = "g.m.davison@computer.org"
+  s.email = ["g.m.davison@computer.org"]
   s.extra_rdoc_files = [
     "LICENSE.txt",
     "README.md"
